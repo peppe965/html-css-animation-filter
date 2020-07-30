@@ -142,7 +142,6 @@
 /* esercizio n.12 */
 .ex-13-button:hover .ex-13-top-white{
   animation: move-left-last 3s linear;
-  background-color: red;
 }
 @keyframes move-left-last {
   0% {
@@ -158,11 +157,13 @@
    top: calc(100% - 10px);
  }
  75% {
-   left: -30px;
+   left: -15px;
    top: calc(100% - 10px);
+   width: 30px;
  }
  90% {
-   left: -30px;
+   width: 30px;
+   left: -15px;
    top: -10px;
  }
  100% {
@@ -173,7 +174,6 @@
 
 .ex-13-button:hover .ex-13-bottom-white{
   animation: move-right-last 3s linear;
-  background-color: red;
 }
 @keyframes move-right-last {
   0% {
@@ -181,12 +181,14 @@
    bottom: -10px;
  }
  30% {
-   right: calc(100% - 30px);
+   right: calc(100% - 15px);
    bottom: -10px;
+   width: 30px;
  }
  45% {
-   right: calc(100% - 30px);
+   right: calc(100% - 15px);
    bottom: calc(100% - 10px);
+   width: 30px;
  }
  75% {
    right: -30px;
